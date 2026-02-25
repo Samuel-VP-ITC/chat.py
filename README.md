@@ -549,7 +549,7 @@ def main(page: ft.Page):
 ft.run(main)
 Esta es la versión final de la app de chat para este tutorial.
 
-´´´
+'''
 from dataclasses import dataclass
 
 import flet as ft
@@ -711,4 +711,4 @@ def main(page: ft.Page):
 
 #ft.run(main)
 ft.app(target=main, view=ft.AppView.WEB_BROWSER)
-´´´
+'''
